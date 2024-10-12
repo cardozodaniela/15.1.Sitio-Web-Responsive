@@ -1,0 +1,9 @@
+#titulo {
+align-content: center;
+text-align: center;
+}
+
+.navbar-nav{
+width: 100%;
+flex-direction: row;
+}
