@@ -7,3 +7,23 @@ text-align: center;
 width: 100%;
 flex-direction: row;
 }
+
+#parrafos {
+    /* Por defecto en móviles (pantallas pequeñas): 1 columna */
+    column-count: 1;
+    column-gap: 20px;
+  }
+
+  /* En pantallas medianas: 2 columnas */
+  @media (min-width: 768px) {
+    #parrafos {
+      column-count: 2;
+    }
+  }
+
+  /* En pantallas grandes: 3 columnas */
+  @media (min-width: 1200px) {
+    #parrafos {
+      column-count: 3;
+    }
+  }
