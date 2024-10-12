@@ -1,7 +1,7 @@
-const textos = [
-    "Opción 1",
-    "Línea de texto 2",
-    "Línea de texto 3"
+ const textos = [
+    "...dolor sit, amet consectetur adipisicing elit.",
+    "Laboriosam, quo.",
+    "Eligendi dicta dolores vel..."
 ];
 
 let indiceActual = 0;
@@ -16,4 +16,4 @@ function cambiarTexto() {
 setInterval(cambiarTexto, 2000);
 
 // Inicializar con el primer texto
-cambiarTexto();
+cambiarTexto(); 

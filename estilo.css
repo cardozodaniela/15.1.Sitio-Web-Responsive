@@ -1,11 +1,23 @@
 #titulo {
 align-content: center;
 text-align: center;
+padding: 2%;
 }
 
 .navbar-nav{
 width: 100%;
 flex-direction: row;
+}
+
+#divprincipal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+}
+
+.list-group-item {
+    text-decoration: underline;
 }
 
 #parrafos {
