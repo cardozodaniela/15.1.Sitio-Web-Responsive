@@ -43,10 +43,11 @@ padding-right: 2%;
  
     /* En (pantallas pequeñas): 1 columna */
     @media (max-width: 575px){
-    #parrafos
+    #parrafos{
     column-count: 1;
     column-gap: 20px;
   }
+    }
 
   /* En pantallas medianas: 2 columnas */
   @media (min-width: 768px) {
