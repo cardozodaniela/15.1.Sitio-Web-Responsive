@@ -4,7 +4,7 @@ text-align: center;
 margin: 3%;
 }
 
-.navbar-nav{
+#navbar{
 width: 100%;
 flex-direction: row;
 display: flex;
@@ -40,8 +40,10 @@ padding-right: 2%;
     text-align: justify;
 }
 
-#parrafos {
-    /* Por defecto en móviles (pantallas pequeñas): 1 columna */
+ 
+    /* En (pantallas pequeñas): 1 columna */
+    @media (max-width: 575px){
+    #parrafos
     column-count: 1;
     column-gap: 20px;
   }
