@@ -17,3 +17,28 @@ setInterval(cambiarTexto, 2000);
 
 // Inicializar con el primer texto
 cambiarTexto(); 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("opciones").addEventListener("click", mostrarDesplegable);
+});
+
+
+function mostrarDesplegable() {
+    const dropdown = document.getElementById("desplegable");
+
+    // Verifica si ya hay contenido en el dropdown
+    if (dropdown.innerHTML) {
+        dropdown.innerHTML = ""; // Cierra el dropdown
+    } else {
+        let htmlContentToAppend = `
+        <ul id="listaopciones" class="list-group">
+          <li class="list-group-item">Opcion 1</li>
+          <li class="list-group-item">Opcion 2</li>
+          <li class="list-group-item">Opcion 3</li>
+          <li class="list-group-item">Opcion 4</li>
+        </ul>`;
+        dropdown.innerHTML = htmlContentToAppend; // Abre el dropdown
+    }
+}
+

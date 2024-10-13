@@ -56,6 +56,15 @@ padding-right: 2%;
   .nav-item{
     margin: 0 !important;
   }
+  #desplegable{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+   #listaopciones{
+    width: 90%;
+    }
     }
 
   /* En pantallas medianas: 2 columnas */
@@ -66,6 +75,15 @@ padding-right: 2%;
     .nav-item{
       margin: 0 !important;
     }
+    #listaopciones{
+    width: 60%;
+    }
+   #desplegable{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
   }
 
   /* En pantallas grandes: 3 columnas */
