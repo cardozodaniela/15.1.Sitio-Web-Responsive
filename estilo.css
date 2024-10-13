@@ -26,7 +26,7 @@ padding-right: 2%;
     display: flex;
     text-align: justify;
     justify-content: space-between;
-    margin-left: 50%;
+    margin-left: 50% !important;
 }
 
 #divprincipal {
@@ -53,12 +53,18 @@ padding-right: 2%;
     column-count: 1;
     column-gap: 20px;
   }
+  .nav-item{
+    margin: 0 !important;
+  }
     }
 
   /* En pantallas medianas: 2 columnas */
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1199px) {
     #parrafos {
       column-count: 2;
+    }
+    .nav-item{
+      margin: 0 !important;
     }
   }
 
